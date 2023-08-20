@@ -1,0 +1,142 @@
+
+body, html{
+	font-family: "Arial", sans-serif; 
+	margin: 0px;
+	padding: 0px;	
+}
+.image-container img{
+	width: 100%;
+	max-height: 600px;
+}
+.content{
+	padding: 18px;
+	text-align: 24px;
+}
+.content p{
+	margin-top: 10px;
+	letter-spacing: 0.08em;
+	line-height: 1.6em;
+}
+.nav-bar-container{
+	position: sticky;
+	height: 70px;
+	background: #262626;
+	z-index: #999;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+}
+.logo{
+	position: absolute;
+	padding-left: 20px;
+	float: left;
+	line-height: 70px;
+	text-transform: uppercase;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+.logo a, .logo a:visited{
+	color: #fff;
+	text-decoration: none;
+}
+.nav-container{
+	max-width: 1000px;
+	margin: 0px auto;
+}
+.navbar{
+	float: right;
+}
+.navbar ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	z-index: 9999;
+}
+.navbar ul li{
+	float: left;
+	position: relative;
+}
+.navbar ul li a, .navbar ul li a:visited{
+	display: block;
+	padding: 0px 20px;
+	line-height: 70px;
+	background: #262626;
+	color: #fff;
+	text-decoration: none;
+}
+.navbar ul li a:hover, .navbar ul li a:visited:hover{
+	background: #2581DC;
+	color: #fff;
+}
+.navbar ul li ul li{
+	min-width: 190px;
+}
+.navbar ul li ul li a{
+	padding: 15px;
+	line-height: 20px;
+}
+.dropdown{
+	position: absolute;
+	z-index: 1;
+	display: none;
+}
+.navbar ul li:hover .dropdown{
+	display: block;
+	background: #333;
+	position: absolute;
+	padding: 10px;
+}
+.navbar ul li:hover .dropdown li{
+	display: block;
+}
+.navbar ul li:hover .dropdown li a:hover{
+	background:#2581DC;
+	
+}
+
+ .footer {
+	 position: fixed;
+	 left: 0;
+	 bottom: 0;
+	 width: 100%;
+	 background-color: #333333;
+	 color: #fff;
+	 text-align: center;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
